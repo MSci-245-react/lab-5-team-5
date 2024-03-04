@@ -1,6 +1,6 @@
 # Lab-5-Team-5
 
-An app for tracking reviews of dishes at different restaurants.
+An app for tracking reviews of dishes at different restaurants. Hey!
 
 Production: <https://lab-5-team-5.netlify.app/>
 
