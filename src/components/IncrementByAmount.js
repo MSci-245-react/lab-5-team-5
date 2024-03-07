@@ -6,15 +6,15 @@ import { incrementByAmount } from '../../features/counter/counterSlice';
 
 
 function IncrementByAmount() {
-  const count = useSelector((state) => state.counter.value); // Adjust if the store structure is different
+  const count = useSelector((state) => state.counter.value);
   const dispatch = useDispatch();
 
   const [incrementAmount, setIncrementAmount] = useState('');
 
   const handleIncrement = () => {
-    // Convert incrementAmount to a number and dispatch
+
     dispatch(incrementByAmount(Number(incrementAmount) || 0));
-    setIncrementAmount(''); // Reset the input field
+    setIncrementAmount('');
   };
 
   return (
