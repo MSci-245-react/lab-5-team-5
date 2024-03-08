@@ -1,11 +1,12 @@
 # Lab-5-Team-5
 
-An app for tracking reviews of dishes at different restaurants.
+An app for tracking reviews of dishes at different restaurants. Hey!
 
 Production: <https://lab-5-team-5.netlify.app/>
 
 Dependencies are locked with a `yarn.lock` file, so please use `yarn` instead
 of `npm` to install them.
+-
 
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=13710487)
 # Use this repository to do lab exercises based on the textbook "Outside-In React Development"
