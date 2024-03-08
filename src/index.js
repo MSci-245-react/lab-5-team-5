@@ -1,15 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import store from './app/store'
-import { Provider } from 'react-redux'
+import React from "react";
+import ReactDOM from "react-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+import { Provider } from "react-redux";
+import store from "./redux/store";
+
+import TodoApp from "./TodoApp";
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(
   <Provider store={store}>
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-  </Provider>
+    <TodoApp />
+  </Provider>,
+  rootElement
 );
+
 
